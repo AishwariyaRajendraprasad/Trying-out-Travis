@@ -1,12 +1,7 @@
-[
-  {
-    "language": "python",
-    "install": [
-      "pip install unittest2"
-    ],
-    "script": [
-      "python trial.py"
-    ],
-    "os": "windows"
-  }
-]
+language: python
+
+install: pip install unittest2
+
+script: python trial.py
+
+
